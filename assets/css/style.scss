@@ -1,0 +1,322 @@
+$red: #EE62BC;
+$pink: #d24eda;
+$blue: #1c2373;
+$blackdos: #070707;
+
+@mixin center {
+  position: absolute;
+  top: 0; 
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
+@mixin hgradient($color) {
+  background-image: 
+    linear-gradient(0deg, transparent 19%, rgba($color, 0.5) 24%, saturate($color, 30%) 25%, saturate($color, 30%) 26%, rgba($color, 0.5) 27%, transparent 32%, transparent 69%, rgba($color, 0.5) 74%, saturate($color, 30%) 75%, saturate($color, 30%) 76%, rgba($color, 0.5) 77%, transparent 82%, transparent);
+}
+
+@mixin vgradient($color) {
+  background-image: 
+    linear-gradient(90deg, transparent 19%, rgba($color, 0.5) 24%, saturate($color, 30%) 25%, saturate($color, 30%) 26%, rgba($color, 0.5) 27%, transparent 32%, transparent 69%, rgba($color, 0.5) 74%, saturate($color, 30%) 75%, saturate($color, 30%) 76%, rgba($color, 0.5) 77%, transparent 82%, transparent);
+}
+
+body {
+  @include center;
+  width: 100%;
+  height: 100%;
+  background: #222;
+  font-family: 'VT323', system, sans-serif;
+  cursor: pointer;
+}
+
+.page {
+  @include center; 
+  width: 100%;
+  height: 100%;
+  background: $blackdos;
+  overflow: hidden;
+  transition: width .25s ease-out .3s, height .25s ease-out;  
+  
+  &.warp {
+    .confirm {
+      opacity: 0;
+      visibility: hidden;
+      
+      .inner {
+        animation: fade 1s steps(4);  
+      }
+    }
+    
+    .hacking-time {
+      opacity: 1;
+      visibility: visible;
+      
+      .inner {
+        animation: fadeIn 1s steps(4, end) 4s;
+      }
+      
+      .progress {
+        
+        &:before {
+          width: 100%;
+        }
+      }
+    }
+    
+    .grid {
+      opacity: 1;
+      visibility: visible;
+      
+      &:before {
+        clip: rect(0, 2000px, 1000px, 0);
+      }
+      
+      &:after {
+        clip: rect(0, 2000px, 1000px, 0);
+      }
+    }
+    
+    #kung-fury { 
+      bottom: 40%;
+      z-index: 1;
+      
+      .inner {
+        animation: hovering 10s infinite;  
+      }
+    }
+  }
+  
+  &.uh-oh {
+    .hacking-time { display: none; }
+    .error { display: block; }
+  }
+  
+  &.abort {
+    width: .1%;
+    height: .25%;
+  }
+}  
+
+.confirm {
+  display: block;
+  @include center;
+  z-index: 2;
+  width: 220px;
+  height: 200px;
+  line-height: 40px;
+  font-size: 40px;
+  color: white;
+  text-transform: uppercase;
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0s linear 1s, visibility 0s linear 1s;
+  
+  input,
+  label {
+    cursor: pointer;
+  }
+  
+  label {
+    position: relative;
+    display: block;
+    float: left;
+    width: 50%;
+    margin: 10px 0 0 0;
+    text-align: center; 
+    
+    &:hover:before {
+      content: '>';
+      position: absolute;
+      left: 10px;
+    }
+  }
+  
+  input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    clip: rect(0,0,0,0);
+    
+    &:checked {
+      + label {
+        
+        &:before {
+          content: '';
+        }
+        
+        span {
+          padding: 0 5px;
+          animation: blink .25s alternate infinite;
+        }
+      }
+    }
+  }
+} 
+
+.hacking-time {
+  @include center;
+  bottom: 50%;
+  width: 100%;
+  max-width: 400px;
+  height: 100%;
+  max-height: 200px;
+  line-height: 40px;
+  font-size: 40px;
+  color: white;
+  text-transform: uppercase;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0s linear 4s, visibility 0s linear 4s;
+  
+  .inner {
+    opacity: 1;
+    visibility: visibile;
+  }
+  
+  h1 { 
+    font-weight: 300;
+    line-height: 0px;
+    font-size: 63px;
+  }
+  
+  .progress {
+    position: relative;
+    height: 40px;
+    width: 100%;
+    margin: 0 0 15px 0;
+    border: 3px solid white;
+    
+    &:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 0%;
+      background: white;
+      transition: width 10s linear 5s;
+    }
+  }
+}
+
+.error { 
+  display: none;
+  @include center;
+  bottom: 40%;
+  width: 100%;
+  max-width: 250px;
+  height: 100%;
+  max-height: 200px;
+  text-transform: uppercase;
+  text-align: center;
+  color: $red;
+  line-height: 40px;
+  font-size: 40px;
+  
+  h1 {
+    display: inline-block;
+    margin: 0;
+    font-weight: 300;
+    line-height: 60px;
+    font-size: 80px;
+    letter-spacing: 5px;
+    animation: blank .25s alternate infinite;
+  }
+}
+
+#kung-fury {
+  @include center;
+  bottom: -100%;
+  transition: bottom .75s ease-out 3.5s; 
+   
+  .inner {
+    @include center;
+    width: 4px;
+    height: 4px;
+  }
+}
+
+
+
+.grid {
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  perspective: 1000px;
+  opacity: 0; 
+  visibility: hidden;
+  transition: opacity 0s linear 2s, visibility 0s linear 2s;
+  
+  &:before {
+    content: '';
+    @include center;
+    @include vgradient($pink);
+    background-size: 100px 100px;
+    border-top: 6px solid $pink;
+    clip: rect(0, 2000px, 1px, 0);
+    transform: rotateX(80deg) scale(2);
+    transform-origin: bottom center;
+    transition: clip 2s ease-out 2s;
+  }
+  
+  &:after {
+    content: '';
+    @include center;
+    @include hgradient($pink);
+    background-size: 100px 100px;
+    clip: rect(0, 2000px, 1px, 0);
+    transform: rotateX(80deg) scale(2);
+    transform-origin: bottom center;
+    transition: clip 5.75s ease-out 2.5s;
+    animation: rad .2s linear infinite;
+  }
+}
+
+@keyframes blink {
+  0%, 49% {
+    color: white;
+    background: $blackdos;
+  }
+  50%, 100% {
+    color: $blackdos;
+    background: white;
+  }
+}
+
+@keyframes blank {
+  0%, 49% {
+    color: $blue;
+    background: $red;
+  }
+  50%, 100% {
+    color: $red;
+    background: $blue;
+  }
+}
+
+@keyframes fade {
+  100% { opacity: 0; visibility: hidden; }
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; visibility: hidden; }
+  100% { opacity: 1; visibility: visible; }
+}
+
+@keyframes abort {
+  25% { clip: rect(); }
+}
+
+@keyframes rad {
+  100% { background-position: 0px 50px; }
+}
+
+@keyframes hovering {
+  0%, 10%, 30%, 45%, 80% { top: 1%; right: 0%; bottom: 0%; left: 1%; }
+  15%, 75%, 40%, 55%, 95% { top: 0; right: 1%; bottom: 1%; left: 0%; }
+  5%, 25%, 35%, 60%, 70%, 90% { top: 1%; right: 1%; bottom: 0%; left: 0%; }
+  50%, 30%, 20%, 65%, 85%, 100% { top: 0%; right: 0%; bottom: 1%; left: 1%; }
+}
