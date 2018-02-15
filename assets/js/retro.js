@@ -1,19 +1,19 @@
 Hackerman = (function(){
   var page = document.querySelector('.page');
   
-  function yearsHacked(i) {
+  function hacking(i) {
   
       var years = document.getElementById('years'),
           multiplier = i * .01;
     
-      if (years.innerHTML < 1000) {
+      if (years.innerHTML < 100) {
+        years.innerHTML = i;
         setTimeout(function() {
-          years.innerHTML = i;
-          yearsHacked(Math.floor(i + 1 + multiplier));
-        }, 1);
+          hacking(Math.floor(i + 1 + multiplier));
+        }, 100);
       } else {
         page.className += ' uh-oh';
-        setTimeout(abort, 3000);
+        //setTimeout(abort, 3000);
       }
   
   }
@@ -21,14 +21,18 @@ Hackerman = (function(){
   function warp() {
     page.className += ' warp';
     setTimeout(function() {
-      yearsHacked(1);
-    }, 4000);
+      hacking(1);
+    }, 5000);
   } 
   
   function abort() {
     page.className += ' abort';
   }
   
+  function start() {
+    window.open('cv.html','_self',false);
+  }
+
   function hacktime (e) {
     e.preventDefault();
     
@@ -39,10 +43,12 @@ Hackerman = (function(){
     
     setTimeout(function() {
       if (input.value === 'yes') {
-        //warp();
         abort();
+        setTimeout(function() {
+        	start();
+        }, 1000);
       } else {
-        abort();
+      	warp();
       }
     }, 1000);
   }

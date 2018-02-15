@@ -83,7 +83,7 @@ body {
       z-index: 1;
       
       .inner {
-        animation: hovering 10s infinite;  
+        animation: hovering 1s infinite;  
       }
     }
   }
@@ -273,6 +273,11 @@ body {
     transition: clip 5.75s ease-out 2.5s;
     animation: rad .2s linear infinite;
   }
+}
+
+.gif {
+  width: 100px;
+  padding: 125px 0;
 }
 
 @keyframes blink {
