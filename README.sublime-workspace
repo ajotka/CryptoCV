@@ -1,0 +1,513 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"resu",
+				"results"
+			],
+			[
+				"res",
+				"result"
+			],
+			[
+				"chec",
+				"checkValue"
+			],
+			[
+				"check",
+				"checkmate"
+			],
+			[
+				"add",
+				"add_script"
+			],
+			[
+				"fen",
+				"fenTextBox"
+			],
+			[
+				"inte",
+				"interactive_chessboard"
+			],
+			[
+				"intera",
+				"interactive-chessboard"
+			],
+			[
+				"inter",
+				"interactive_chessboard_load_textdomain"
+			],
+			[
+				"bo",
+				"board"
+			],
+			[
+				"ch",
+				"chess"
+			],
+			[
+				"scr",
+				"script\t<script>"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"para",
+				"parameter"
+			],
+			[
+				"end",
+				"endwhile"
+			],
+			[
+				"quiz",
+				"quiz_points_field"
+			],
+			[
+				"quiz_",
+				"quiz_points_field"
+			],
+			[
+				"qui",
+				"quiz_answers_field"
+			],
+			[
+				"my_",
+				"my_moves"
+			],
+			[
+				"import",
+				"important"
+			],
+			[
+				"link",
+				"link\tTag"
+			],
+			[
+				"the",
+				"the_post"
+			],
+			[
+				"is_s",
+				"is_sticky"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"di",
+				"div"
+			],
+			[
+				"Nu",
+				"Numbers"
+			],
+			[
+				"lo",
+				"log"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"style",
+				"style\tAttr"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"margin-",
+				"margin-bottom"
+			],
+			[
+				"protoco",
+				"protocol_id"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"text-",
+				"text-decoration"
+			],
+			[
+				"arg",
+				"argv"
+			],
+			[
+				"size",
+				"size_t"
+			],
+			[
+				"state",
+				"state2"
+			],
+			[
+				"c",
+				"c_array"
+			],
+			[
+				"pth",
+				"pthread_mutex_t"
+			],
+			[
+				"inc",
+				"include"
+			],
+			[
+				"valNum",
+				"valNumResult"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 181.0,
+		"last_filter": "Package Control: inst",
+		"selected_items":
+		[
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"UI:",
+				"UI: Select Theme"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"task",
+				"Tasks: New document"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"sublimeLinter",
+				"SublimeLinter: Toggle Linter"
+			],
+			[
+				"linter",
+				"Code Folding: Fold Tag Attributes"
+			],
+			[
+				"too",
+				"Toggle Block Comment"
+			]
+		],
+		"width": 452.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/blond/Documents/WAT/SEM 6/loginpage/app/build/generated/source/buildConfig/androidTest/debug/com/sourcey/materialloginexample/test/BuildConfig.java",
+		"/C/Users/blond/Desktop/repos/LubieKwiatki-inprogress/templates/login/login.html",
+		"/C/Users/blond/AppData/Local/Temp/scp59868/www/wp-content/themes/AgataTheme/main-style.css",
+		"/C/Users/blond/AppData/Local/Temp/scp44467/www/wp-content/themes/AgataTheme/main-style.css",
+		"/C/Users/blond/AppData/Local/Temp/scp38630/www/wp-content/themes/AgataTheme/header.php",
+		"/C/Users/blond/AppData/Local/Temp/scp50886/www/wp-content/themes/CherryFramework/functions.php",
+		"/C/Users/blond/AppData/Local/Temp/scp13938/www/wp-content/themes/AgataTheme/style.css",
+		"/C/Users/blond/AppData/Local/Temp/scp13717/www/wp-content/themes/AgataTheme/style.css",
+		"/C/Users/blond/Desktop/repos/Apps/ROBS/www/lib/jquery.validate.min.js",
+		"/C/Users/blond/AppData/Local/Temp/scp29981/www/wp-content/themes/AgataTheme/loop/loop-blog.php",
+		"/C/Users/blond/AppData/Local/Temp/scp28296/www/wp-content/themes/AgataTheme/page.php",
+		"/C/Users/blond/AppData/Local/Temp/scp29942/www/wp-content/themes/AgataTheme/includes/post-formats/standard.php",
+		"/C/Users/blond/AppData/Local/Temp/scp16198/www/wp-content/themes/AgataTheme/includes/post-formats/post-thumb.php",
+		"/C/Users/blond/AppData/Local/Temp/scp50851/home/nimbus/public_html/debug.log",
+		"/C/Users/blond/OneDrive/ztk/xades/readme.mdown",
+		"/C/Users/blond/Documents/WAT/SEM 6/TUIMApp/src/templates/about.html",
+		"/C/Users/blond/Downloads/swiperefresh/activity/MainActivity.java",
+		"/C/Users/blond/Documents/WAT/SEM 6/TUIMApp-app/app/src/main/AndroidManifest.xml",
+		"/C/Users/blond/Documents/WAT/SEM 6/sample.json",
+		"/C/Users/blond/AppData/Local/Temp/7zO0F2AE5C6/gradle-wrapper.properties",
+		"/C/Users/blond/Documents/WAT/SEM 6/TUIMApp-server/Tuim-projekt/Files/_1497795080764",
+		"/C/Users/blond/Documents/WAT/SEM 6/loginpage/.idea/workspace.xml",
+		"/C/Users/blond/Documents/WAT/SEM 6/loginpage/app/build.gradle",
+		"/C/Users/blond/Documents/WAT/SEM 6/loginpage/app/build/generated/source/apt/debug/com/sourcey/components/LoginActivity$$ViewBinder.java",
+		"/C/Users/blond/Documents/WAT/SEM 6/loginpage/app/build/generated/source/apt/debug/com/sourcey/components/SignupActivity$$ViewBinder.java",
+		"/C/Users/blond/Documents/WAT/SEM 6/loginpage/app/build/generated/source/apt/release/com/sourcey/materiallogindemo/LoginActivity$$ViewBinder.java",
+		"/C/Users/blond/Documents/WAT/SEM 6/loginpage/app/build/generated/source/buildConfig/debug/com/sourcey/components/BuildConfig.java",
+		"/C/Users/blond/Documents/WAT/SEM 6/loginpage/app/build/generated/source/buildConfig/release/com/sourcey/materiallogindemo/BuildConfig.java",
+		"/C/Users/blond/Documents/WAT/SEM 6/loginpage/app/build/generated/source/r/debug/com/sourcey/components/R.java",
+		"/C/Users/blond/Documents/WAT/SEM 6/loginpage/app/build/generated/source/r/release/com/sourcey/materiallogindemo/R.java",
+		"/C/Users/blond/Documents/WAT/SEM 6/loginpage/app/build/intermediates/instant-run-support/debug/manifest.xml",
+		"/C/Users/blond/Documents/WAT/SEM 6/loginpage/app/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml",
+		"/C/Users/blond/Documents/WAT/SEM 6/loginpage/app/build/intermediates/manifests/full/debug/AndroidManifest.xml",
+		"/C/Users/blond/Documents/WAT/SEM 6/loginpage/app/build/intermediates/manifests/full/release/AndroidManifest.xml",
+		"/C/Users/blond/Documents/WAT/SEM 6/loginpage/app/build/intermediates/manifests/instant-run/debug/AndroidManifest.xml",
+		"/C/Users/blond/Documents/WAT/SEM 6/loginpage/app/build/outputs/logs/manifest-merger-debug-report.txt",
+		"/C/Users/blond/Documents/WAT/SEM 6/loginpage/app/build/outputs/logs/manifest-merger-release-report.txt",
+		"/C/Users/blond/Documents/WAT/SEM 6/loginpage/app/src/androidTest/java/com/sourcey/components/ApplicationTest.java",
+		"/C/Users/blond/AppData/Local/Temp/scp40554/home/drive/public_html/wp-content/themes/enjoydriving-child/style.css",
+		"/C/Users/blond/Documents/Coding/Xampp/chess/wp-content/themes/kidscare_child/style.css",
+		"/C/Users/blond/Documents/Coding/Xampp/chess/wp-content/themes/chess/style.css",
+		"/C/Users/blond/Documents/Coding/IntelliJ/servers/wildfly-10.1.0.Final/standalone/configuration/standalone.xml",
+		"/C/Users/blond/AppData/Local/Temp/7zOC6C72D5F/MainActivity.java",
+		"/C/Users/blond/Documents/WAT/SEM 6/TUIMApp-server/Tuim-projekt/Files/tescik/tescik_1498677902490",
+		"/C/Users/blond/Documents/WAT/SEM 6/asd_1498684101011.json",
+		"/C/Users/blond/AppData/Local/Temp/7zO8AE2723B/MainActivity.java",
+		"/C/Users/blond/AppData/Local/Temp/7zO0FCC1B91/MainActivity.java",
+		"/C/Users/blond/AppData/Local/Temp/7zOC6C6E337/build.gradle",
+		"/C/Users/blond/Documents/WAT/SEM 6/MyAppList/application/src/main/java/com/projectsexception/myapplist/fragments/AppInfoFragment.java",
+		"/C/Users/blond/Documents/WAT/SEM 6/loginpage/app/src/main/AndroidManifest.xml",
+		"/C/Users/blond/Documents/WAT/SEM 6/TUIMApp-server/Tuim-projekt/Files/ghj/ghj_1497869846704",
+		"/C/Users/blond/Documents/WAT/SEM 6/tuim/lab9_v1/src/lab9/POJO/AttachmentPOJO.java",
+		"/C/Users/blond/Documents/WAT/SEM 6/tuim/lab9_v1/src/lab9/Services/AttachmentServiceEndpoint.java",
+		"/C/Users/blond/Documents/WAT/SEM 6/tuim/lab4_v1/out/artifacts/lab4_v1_ear_exploded.ear/web.war/WEB-INF/classes/lab4/ExampleWS.wsdl",
+		"/C/Users/blond/Documents/WAT/SEM 6/tuim/lab4_v1/out/artifacts/lab4_v1_war_exploded/WEB-INF/classes/lab4/ExampleWS.wsdl",
+		"/C/Users/blond/Documents/WAT/SEM 6/tuim/lab4_v1/out/production/lab4_v1/lab4/ExampleWS.wsdl",
+		"/C/Users/blond/Documents/WAT/SEM 6/tuim/lab4_v1/src/lab4/CustomException_Exception.java",
+		"/C/Users/blond/Documents/WAT/SEM 6/tuim/lab4_v1/src/lab4/ExampleWS.java",
+		"/C/Users/blond/Documents/WAT/SEM 6/tuim/lab4_v1/src/lab4/ExampleWS.wsdl",
+		"/C/Users/blond/Documents/WAT/SEM 6/tuim/lab4_v1/src/lab4/ExampleWSService.java",
+		"/C/Users/blond/Documents/WAT/SEM 6/tuim/lab4_v1/src/lab4/GetDummyResponseResponse.java",
+		"/C/Users/blond/Documents/WAT/SEM 6/tuim/lab4_v1/src/lab4/ObjectFactory.java",
+		"/C/Users/blond/Documents/WAT/SEM 6/tuim/lab4_v1/src/lab4/package-info.java",
+		"/C/Users/blond/Documents/Coding/Xampp/chess/wp-content/themes/chess/functions.php",
+		"/C/xampp/htdocs/chess/wp-content/themes/chess/template-parts/content-quiz — kopia.php",
+		"/C/xampp/htdocs/chess/wp-content/themes/chess/inc/meta_boxes/quiz_meta_box.php",
+		"/C/Users/blond/Desktop/e-szachy/chess-plugin/linie.html",
+		"/C/Users/blond/Desktop/chess-plugin/style.css",
+		"/C/Users/blond/AppData/Local/Temp/scp13152/public_html/wp-content/plugins/learnpress-ajotka-chess/assets/style.css",
+		"/C/Users/blond/AppData/Local/Temp/scp15309/public_html/wp-content/plugins/learnpress-ajotka-chess/learnpress-ajotka-chess.php",
+		"/C/xampp/htdocs/chess/wp-content/themes/chess/template-parts/content-level.php",
+		"/C/Users/blond/AppData/Local/Temp/scp31420/home/annajansen/public_html/wp-content/themes/jansen/style.css",
+		"/C/Users/blond/Documents/WAT/SEM 6/tuim/zad_1_v1/src/lab2/example/DummyServlet.java",
+		"/C/Users/blond/Documents/WAT/SEM 6/tuim/lab4_v1/src/lab4/example/ExampleWS.java",
+		"/C/Users/blond/Documents/WAT/SEM 6/tuim/lab5_v1/src/lab5/service/ClientWS.java",
+		"/C/Users/blond/Documents/WAT/SEM 6/tuim/zad_1_v1/src/lab2/car/logic/ejb/CarRepository.java",
+		"/C/Users/blond/Documents/WAT/SEM 6/tuim/zad_1_v1/src/lab2/car/logic/pojo/CarPOJO.java",
+		"/C/Users/blond/Documents/WAT/SEM 6/tuim/lab3_v1/src/lab3/logic/product/ProductPOJO.java",
+		"/C/Users/blond/Documents/WAT/SEM 6/tuim/zad_1_v1/src/lab2/car/logic/CarService.java",
+		"/C/Users/blond/Documents/WAT/SEM 6/tuim/lab3_v1/src/lab3/servlet/InvoiceServlet.java",
+		"/C/Users/blond/AppData/Local/Temp/scp38517/domains/szachmaty.pl/public_html/wp-content/themes/chess/functions.php",
+		"/C/Users/blond/AppData/Local/Temp/scp59648/domains/szachmaty.pl/public_html/wp-content/themes/chess/footer.php",
+		"/C/Users/blond/Documents/Coding/Xampp/chess/wp-content/themes/kidscare/footer.php",
+		"/C/Users/blond/AppData/Local/Temp/scp55526/domains/szachmaty.pl/public_html/wp-content/themes/chess/style.css",
+		"/C/Users/blond/AppData/Local/Temp/scp02185/domains/szachmaty.pl/public_html/wp-content/themes/chess/Afooter.php",
+		"/C/Users/blond/Documents/WAT/SEM 6/tuim/lab8_v1/src/lab8-soapui-project.xml",
+		"/C/Users/blond/Documents/WAT/SEM 6/tuim/lab4_v1/src/lab4/service/InvoiceWS.java",
+		"/C/Users/blond/Documents/WAT/SEM 6/tuim/lab3_v1-przyklad/lab3_v1/src/lab3/logic/Invoice.java",
+		"/C/Users/blond/Documents/WAT/SEM 6/tuim/lab4_v1/src/lab4/logic/InvoiceRepository.java",
+		"/C/Users/blond/Documents/WAT/SEM 6/tuim/lab3_v1-przyklad/lab3_v1/src/lab3/servlet/InvoiceServlet.java",
+		"/C/Users/blond/Documents/WAT/SEM 6/tuim/SearchEngine.java",
+		"/C/Users/blond/Documents/WAT/SEM 6/tuim/lab6_v2/src/lab6/example/service/ExampleRESTService.java",
+		"/C/Users/blond/Documents/WAT/SEM 6/tuim/lab6_v2/src/lab6/RESTApplication.java",
+		"/C/Users/blond/Documents/WAT/SEM 6/tuim/lab6_v2/src/lab6/rest/service/SearchEngine.java",
+		"/C/Users/blond/Documents/WAT/SEM 6/tuim/lab4_v1/src/lab4/logic/pojo/ProductPOJO.java",
+		"/C/Users/blond/Documents/WAT/SEM 6/tuim/lab5_v1/src/lab5/example/service/ExampleWS.java",
+		"/C/Users/blond/Documents/WAT/SEM 6/tuim/lab5_v1/src/lab5/example/logic/InvoiceRepository.java",
+		"/C/Users/blond/Documents/WAT/SEM 6/mspb/mbis.txt",
+		"/C/Users/blond/Documents/WAT/SEM 6/TUIMApp/src/index.html",
+		"/C/Users/blond/Documents/WAT/SEM 6/tuim/lab8_v1/src/lab8/example/service/ClientRepository.java",
+		"/C/Users/blond/Documents/WAT/SEM 6/tuim/lab6_v2/src/lab6/rest/service/Blog.java",
+		"/C/Users/blond/Documents/WAT/SEM 6/tuim/lab6_v2/src/lab6/rest/pojo/EntryPOJO.java",
+		"/C/Users/blond/Documents/WAT/SEM 6/tuim/lab10_v2/lab10_v1/src/main/java/tuim/lab10/service/InsuranceRepository.java",
+		"/C/Users/blond/Documents/WAT/SEM 6/tuim/lab10_v2/lab10_v1/src/main/java/tuim/lab10/service/RestApiControlerLab10.java",
+		"/C/Users/blond/Documents/WAT/SEM 6/TUIMApp/www/index.html",
+		"/C/Users/blond/Documents/WAT/SEM 6/TUIMApp/www/templates/activeComponents.html",
+		"/C/Users/blond/Documents/WAT/SEM 6/TUIMApp/www/manifest.json",
+		"/C/Users/blond/Documents/WAT/SEM 6/TUIMApp/config.xml",
+		"/C/Users/blond/Documents/WAT/SEM 6/TUIMApp/package.json",
+		"/C/Users/blond/Documents/WAT/SEM 6/tuim/lab8_v1/src/lab8/example/service/ExampleWS.java",
+		"/C/Users/blond/Documents/WAT/SEM 6/tuim/lab8_v1/src/lab8/example/service/UserService.java",
+		"/C/Users/blond/Documents/WAT/SEM 6/tuim/lab8_v1/src/lab8/example/service/UserServiceWS.java",
+		"/C/Users/blond/Documents/WAT/SEM 6/tuim/lab8_v1/src/lab8/example/service/User.java",
+		"/C/Users/blond/Documents/WAT/SEM 6/optimizeR-README.txt",
+		"/C/Users/blond/AppData/Local/Temp/Temp1_tmproductsslider.zip/tmproductsslider/index.php",
+		"/C/Users/blond/AppData/Local/Temp/Temp1_tmproductsslider.zip/tmproductsslider/views/index.php",
+		"/C/Users/blond/AppData/Local/Temp/Temp1_tmproductsslider.zip/tmproductsslider/views/templates/index.php",
+		"/C/Users/blond/AppData/Local/Temp/Temp1_tmproductsslider.zip/tmproductsslider/views/templates/hook/index.php",
+		"/C/Users/blond/AppData/Local/Temp/Temp1_tmproductsslider.zip/tmproductsslider/views/templates/hook/tmproductsslider.tpl",
+		"/C/Users/blond/AppData/Local/Temp/scp25273/home/fenice/public_html/wp-content/themes/spero-slupy-child/functions.php",
+		"/C/Users/blond/AppData/Local/Temp/scp35403/home/fenice/public_html/wp-content/themes/spero-slupy-child/inc/list_table_customization/signup_post_type_list_table_customization.php",
+		"/C/Users/blond/AppData/Local/Temp/scp51065/home/drive/public_html/wp-content/themes/enjoydriving-child/header.php",
+		"/C/Users/blond/AppData/Local/Temp/scp47544/home/onlinekamera/public_html/wp-content/plugins/spero_login_page_customizer-1/spero_login_page_customizer.php",
+		"/C/Users/blond/Desktop/CryptoCV/index.html",
+		"/C/Users/blond/Desktop/CryptoCV/assets/css/style.scss",
+		"/C/Users/blond/Documents/Dokumenty/SperoShared.key",
+		"/C/Users/blond/Documents/Coding/Univesity/DSig/README.md",
+		"/C/Users/blond/Desktop/test1.pgn"
+	],
+	"find":
+	{
+		"height": 33.0
+	},
+	"find_in_files":
+	{
+		"height": 96.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 33.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "README.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 188.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
